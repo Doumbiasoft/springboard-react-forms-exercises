@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Test should matches snapshot 1`] = `
+<DocumentFragment>
+  <form>
+    <label>
+      New Task:
+      <input
+        type="text"
+        value=""
+      />
+    </label>
+    <button>
+      Add Todo
+    </button>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Snapshot Test should matches snapshot 2`] = `
+<DocumentFragment>
+  <div
+    class="Todo"
+  >
+    <button
+      class="Todo-btn"
+    >
+      Edit
+    </button>
+    <button
+      class="Todo-btn"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshot Test should matches snapshot 3`] = `
+<DocumentFragment>
+  <div>
+    <form>
+      <label>
+        New Task:
+        <input
+          type="text"
+          value=""
+        />
+      </label>
+      <button>
+        Add Todo
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
